@@ -1,2 +1,3 @@
 # Fast
-Collection of helpful Swift extensions and utilities
+
+A collection of helpful Swift extensions and utilities
