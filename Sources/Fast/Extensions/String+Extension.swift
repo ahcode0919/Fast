@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension String {
-    func chomp() -> String {
+public extension String {
+    public func chomp() -> String {
         return self.trimmingCharacters(in: .whitespacesAndNewlines)
     }
 }
