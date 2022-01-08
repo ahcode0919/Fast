@@ -9,8 +9,4 @@ final class StringExtensionTests: XCTestCase {
         XCTAssertEqual("test \n\r  ".chomp(), "test")
         XCTAssertEqual("test    \n ".chomp(), "test")
     }
-
-    static var allTests = [
-        ("testChomp", testChomp),
-    ]
 }
