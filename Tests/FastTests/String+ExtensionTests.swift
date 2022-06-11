@@ -9,4 +9,10 @@ final class StringExtensionTests: XCTestCase {
         XCTAssertEqual("test \n\r  ".chomp(), "test")
         XCTAssertEqual("test    \n ".chomp(), "test")
     }
+
+    func testWithQuotes() {
+        XCTAssertEqual("foo".withQuotes(), "\"foo\"")
+        XCTAssertEqual("".withQuotes(), "\"\"")
+        XCTAssertEqual("\"foo\"".withQuotes(), "\"foo\"")
+    }
 }
