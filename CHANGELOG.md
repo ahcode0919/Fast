@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 - Add `OrderedSet`
+- Add `[Double].random(range:_, size:_)`
+- Add `[Float].random(range:_, size:_)`
+- Add `[Int].random(range:_, size:_)`
+- Add `[UInt].random(range:_, size:_)`
 
 ## [0.0.5]
 
