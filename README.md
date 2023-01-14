@@ -25,5 +25,7 @@ A collection of helpful Swift extensions and utilities
 
 ### String
 
+- `String.random(length:_)` - Create a string of alphanumeric characters of the specified length
 - `chomp()` - Removes white space from the start and end of a String
+- `contains(_ type: NSTextCheckingResult.CheckingType)` - Checks for matching string format. Date, link, phonenumber, etc
 - `withQuotes()` - Encapsulates a String in quotations 
