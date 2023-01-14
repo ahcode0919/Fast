@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `[UInt].random(range:_, size:_)`
 - Add `String.random(length:_)`
 - Add `contains(_ type: NSTextCheckingResult.CheckingType)`
+- Fix `OrderedSet.remove()` method 
 
 ## [0.0.5]
 

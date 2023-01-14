@@ -77,6 +77,12 @@ class OrderedSetTests: XCTestCase {
         XCTAssertEqual(orderedSet.values(), values)
     }
     
+    func testRemove() {
+        let orderedSet = OrderedSet<Int>([1, 2, 3])
+        orderedSet.remove(2)
+        XCTAssertEqual(orderedSet.values(), [1, 3])
+    }
+    
     func testValues() {
         var orderedSet = OrderedSet<Int>()
         XCTAssertEqual(orderedSet.values(), [])

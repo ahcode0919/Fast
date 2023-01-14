@@ -40,7 +40,7 @@ public class OrderedSet<T: Hashable>: Sequence, Equatable {
     }
     
     public func remove(_ element: T) {
-        _set.add(element)
+        _set.remove(element)
     }
     
     public func values() -> [T] {
