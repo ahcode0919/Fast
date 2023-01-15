@@ -13,8 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `[Int].random(range:_, size:_)`
 - Add `[UInt].random(range:_, size:_)`
 - Add `String.random(length:_)`
-- Add `contains(_ type: NSTextCheckingResult.CheckingType)`
+- Add String helper `contains(_ type: NSTextCheckingResult.CheckingType)`
 - Fix `OrderedSet.remove()` method 
+- Add Int64 helper `byteFormattedString(units:_, countStyle:_)`
 
 ## [0.0.5]
 
