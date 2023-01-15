@@ -23,6 +23,12 @@ A collection of helpful Swift extensions and utilities
 
 - `OrderedSet`
 
+### Int
+
+#### Int64
+
+- `byteFormattedString(units:_, countStyle:_)` Convert `Int64` to byte measurement string Ex: `100_000` = `100 KB`
+
 ### String
 
 - `String.random(length:_)` - Create a string of alphanumeric characters of the specified length

@@ -8,7 +8,7 @@
 @testable import Fast
 import XCTest
 
-class ArrayExtensionTests: XCTestCase {
+final class ArrayExtensionTests: XCTestCase {
     
     func testRandomDoubleArray() throws {
         let range: Range<Double> = 0..<1_000
