@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add String helper `contains(_ type: NSTextCheckingResult.CheckingType)`
 - Fix `OrderedSet.remove()` method 
 - Add Int64 helper `byteFormattedString(units:_, countStyle:_)`
+- Add `extractDoubles() -> [Doubles]`
+- Add `extractInts() -> [Int]`
 
 ## [0.0.5]
 
