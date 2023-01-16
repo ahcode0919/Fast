@@ -21,6 +21,7 @@ A collection of helpful Swift extensions and utilities
     
 ### Collections
 
+- `CountedSet`
 - `OrderedSet`
 
 ### Int

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class OrderedSet<T: Hashable>: Sequence, Equatable {
+public struct OrderedSet<T: Hashable>: Sequence, Equatable {
     private let _set = NSMutableOrderedSet()
     
     public var count: Int {
@@ -20,7 +20,7 @@ public class OrderedSet<T: Hashable>: Sequence, Equatable {
     
     public init() {}
     
-    public convenience init(_ values: [T]) {
+    public init(_ values: [T]) {
         self.init()
         for value in values {
             self.add(value)
@@ -51,21 +51,5 @@ public class OrderedSet<T: Hashable>: Sequence, Equatable {
             values.append(value)
         }
         return values
-    }
- 
-    public static func ==(_ lhs: OrderedSet, _ rhs: OrderedSet) -> Bool {
-        guard lhs.count == rhs.count else {
-            return false
-        }
-
-        var lhsIterator = lhs.makeIterator()
-        var rhsIterator = rhs.makeIterator()
-
-        while let lhsValue = lhsIterator.next() as? T, let rhsValue = rhsIterator.next() as? T {
-            if lhsValue != rhsValue {
-                return false
-            }
-        }
-        return true
     }
 }
