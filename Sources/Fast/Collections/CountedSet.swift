@@ -51,7 +51,7 @@ public struct CountedSet<T>: Equatable {
     }
 
     public func remove(_ value: T) {
-        self._set.remove(value)
+        self._set.remove(value)        
     }
     
     public func values() -> [T] {
