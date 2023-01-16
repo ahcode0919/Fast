@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-- Add `OrderedSet`
+- Add `OrderedSet` Collection
 - Add `[Double].random(range:_, size:_)`
 - Add `[Float].random(range:_, size:_)`
 - Add `[Int].random(range:_, size:_)`
@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Int64 helper `byteFormattedString(units:_, countStyle:_)`
 - Add `extractDoubles() -> [Doubles]`
 - Add `extractInts() -> [Int]`
+- Add `CountedSet` Collection
 
 ## [0.0.5]
 
