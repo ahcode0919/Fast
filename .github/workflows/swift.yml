@@ -1,0 +1,22 @@
+name: Swift
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Unit tests
+      run: swift test
+
+  changelog:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: dangoslen/changelog-enforcer@v3
